@@ -1,0 +1,32 @@
+{
+  "name": "EventCalendar",
+  "description": "EventCalendar",
+  "launch_path": "/web/index.html",
+  "icons": {
+    "16": "/web/images/icons/icon16x16.png",
+    "48": "/web/images/icons/icon48x48.png",
+    "60": "/web/images/icons/icon60x60.png",
+    "128": "/web/images/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Horváth Tamás",
+    "url": ""
+  },
+  "default_locale": "en",
+  "type": "privileged",
+  "permissions": {
+    "alarms": {
+      "description": "Required to schedule notifications"
+    },
+    "desktop-notification": {
+      "description": "Needed for creating system notifications."
+    },
+    "device-storage:sdcard": {
+      "access":"readwrite"
+    }
+  },
+  "messages": [
+    {"notification": "/web/index.html"},
+    {"alarm": "/web/index.html"}
+  ]
+}

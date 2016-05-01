@@ -1,0 +1,505 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"IDB",
+				"IDBHandler"
+			],
+			[
+				"body",
+				"bodyContent"
+			],
+			[
+				"link",
+				"links"
+			],
+			[
+				"eve",
+				"events"
+			],
+			[
+				"for",
+				"form_data"
+			],
+			[
+				"na",
+				"name	Attr"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"translate",
+				"translate3d()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "web/index.html",
+			"settings":
+			{
+				"buffer_size": 4077,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/js/export.js",
+			"settings":
+			{
+				"buffer_size": 1463,
+				"line_ending": "Windows",
+				"name": "'use strict'"
+			}
+		},
+		{
+			"file": "manifest.webapp",
+			"settings":
+			{
+				"buffer_size": 781,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/js/IDBHandler.js",
+			"settings":
+			{
+				"buffer_size": 4513,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 157.0,
+		"last_filter": "syn scs",
+		"selected_items":
+		[
+			[
+				"syn scs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pacin",
+				"Package Control: Install Package"
+			],
+			[
+				"synt as",
+				"Set Syntax: ActionScript"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 692.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/firefox_os_event_calendar-master",
+		"/D/firefox_os_event_calendar-master/web",
+		"/D/firefox_os_event_calendar-master/web/css",
+		"/D/firefox_os_event_calendar-master/web/js"
+	],
+	"file_history":
+	[
+		"/D/firefox_os_event_calendar-master/README.md",
+		"/D/firefox_os_event_calendar-master/web/css/details.css",
+		"/D/firefox_os_event_calendar-master/web/event_details.html",
+		"/D/firefox_os_event_calendar-master/web/addevent.html",
+		"/D/firefox_os_event_calendar-master/web/js/IDBHandler.js",
+		"/D/firefox_os_event_calendar-master/web/js/calendar.js",
+		"/D/firefox_os_event_calendar-master/web/css/days.css",
+		"/D/firefox_os_event_calendar-master/web/js/all_day_event.js",
+		"/D/firefox_os_event_calendar-master/web/js/app.js",
+		"/D/firefox_os_event_calendar-master/web/js/save_event.js",
+		"/D/firefox_os_event_calendar-master/manifest.webapp",
+		"/D/firefox_os_event_calendar-master/web/js/maps.js",
+		"/D/firefox_os_event_calendar-master/web/css/event-form.css",
+		"/D/firefox_os_event_calendar-master/web/css/app.css",
+		"/D/firefox_os_event_calendar-master/web/css/subheader.css",
+		"/D/firefox_os_event_calendar-master/web/css/custom_list.css",
+		"/D/firefox_os_event_calendar-master/web/styles/app.css",
+		"/D/firefox_os_event_calendar-master/gaia/style/drawer/index.html",
+		"/D/firefox_os_event_calendar-master/gaia/style/lists/index.html",
+		"/C/Users/Horvath/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Horvath/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/firefox_os_event_calendar-master/gulpfile.js",
+		"/D/firefox_os_event_calendar-master/web/css/icons/selection.json",
+		"/D/firefox_os_event_calendar-master/front_src/scripts/app.js",
+		"/D/firefox_os_event_calendar-master/web/vendor/drawer/index.html",
+		"/D/firefox_os_event_calendar-master/front_src/styles/app.scss",
+		"/D/firefox_os_event_calendar-master/front_src/app.scss",
+		"/D/firefox_os_event_calendar-master/front_src/app.js",
+		"/C/Users/Horvath/Downloads/gaia-2.1/gaia-2.1/shared/js/date_time_helper.js",
+		"/E/Tanulnivalo/archive/Trigger2.pdf",
+		"/D/Rendszerfejlesztés/trunk/project/src/test/onlinelibrary/model/DaoTest.java",
+		"/D/Rendszerfejlesztés/trunk/project/src/.jacocoverage/report.html/index.html",
+		"/C/Users/Horvath/Desktop/JaCoCoverage analysis of project _OnlineKonyvtar_ (powered by JaCoCo from EclEmma).html",
+		"/D/rf/JUnit Demo/test/hu/u_szeged/inf/rf/PersonTest.java",
+		"/D/Rendszerfejlesztés/trunk/project/src/nbproject/private/private.xml",
+		"/D/Rendszerfejlesztés/trunk/project/src/src/WebContent/WEB-INF/web.xml",
+		"/D/Rendszerfejlesztés/trunk/project/src/src/onlinelibrary/Core.java",
+		"/D/Rendszerfejlesztés/trunk/project/src/src/onlinelibrary/model/Dao.java",
+		"/D/back_up/Rendszerfejlesztés/trunk/project/src/src/onlinelibrary/model/Dao.java",
+		"/D/Rendszerfejlesztés/trunk/project/src/src/onlinelibrary/servlets/Books.java",
+		"/D/Rendszerfejlesztés/trunk/project/src/onlinekonyvtar.sql",
+		"/D/Rendszerfejlesztés/trunk/project/src/_project",
+		"/D/Rendszerfejlesztés/trunk/project/src/nbproject/project.xml",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/rf/05/kulso/db/bookshop.ddl",
+		"/D/rf/05/kulso/db/load-ddl.readme",
+		"/D/Rendszerfejlesztés/trunk/project/src/src/WebContent/Admin/user_list.jsp",
+		"/D/Rendszerfejlesztés/trunk/project/src/src/WebContent/Admin/header.jsp",
+		"/D/Rendszerfejlesztés/trunk/project/src/src/WebContent/db/adatbazis_uj.sql",
+		"/D/rf/05/feladat/08-java-Desktop-Extra/src/hu/alkfejl/bookshop/model/BookShopDAODBImpl.java",
+		"/D/Rendszerfejlesztés/trunk/project/src/nbproject/build-impl.xml",
+		"/D/Rendszerfejlesztés/trunk/project/src/nbproject/ant-deploy.xml",
+		"/D/Rendszerfejlesztés/trunk/project/src/src/WebContent/db/books.sql",
+		"/C/Users/Horvath/Downloads/DataTables-1.10.11/Readme.md",
+		"/D/rf/05/feladat/08-java-Desktop-Extra/build.xml",
+		"/D/rf/05/env.bat",
+		"/D/Rendszerfejlesztés/trunk/project/sonar-project.properties",
+		"/D/Rendszerfejlesztés/trunk/project/src/build.xml",
+		"/C/Program Files/Apache Software Foundation/Apache Tomcat 8.0.27/conf/web.xml",
+		"/D/rf/03/feladat/06-java-GUI/src/hu/alkfejl/bookshop/model/BookShopDAOImpl.java",
+		"/D/rf/03/feladat/06-java-GUI/src/hu/alkfejl/bookshop/controller/BookShopController.java",
+		"/D/rf/03/feladat/06-java-GUI/src/hu/alkfejl/bookshop/model/bean/Customer.java",
+		"/D/rf/03/feladat/06-java-GUI/src/hu/alkfejl/bookshop/model/BookShopDAO.java",
+		"/D/Rendszerfejlesztés/trunk/project/src/src/WebContent/db/onlinelibrary.db",
+		"/D/Rendszerfejlesztés/trunk/project/src/src/DB/adatbazis_uj.sql",
+		"/C/Users/Horvath/Downloads/musicz-pack/index.php",
+		"/C/Users/Horvath/Downloads/musicz-pack/web/index.html",
+		"/C/Users/Horvath/Desktop/test.html",
+		"/C/Users/Horvath/Desktop/test.js",
+		"/E/Játékok/Rayman.Legends.MULTi13-PROPHET/prophet.nfo",
+		"/D/Rendszerfejlesztés/trunk/project/src/src/WebContent/WEB-INF/lib/library.sql",
+		"/D/Rendszerfejlesztés/trunk/project/src/src/DB/onlinekonyvtar.sql",
+		"/D/Rendszerfejlesztés/trunk/project/src/adatbazis.sql",
+		"/D/Rendszerfejlesztés/trunk/project/src/adatbazis uj.sql",
+		"/C/Users/Horvath/.idlerc/recent-files.lst",
+		"/C/Users/Horvath/Downloads/hajítás.txt"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"--\"",
+			"IDBObjectStore_KategoriakTr",
+			"IDBRequest_Kreq1",
+			"this.addCurrentTimeLine()",
+			"first-child",
+			"section[role=\"region\"] > header",
+			"<span>",
+			"</li>",
+			"pan{",
+			"span",
+			"hide sideba",
+			"var IDBIndex_KatIndex1 = ",
+			"file:///D:/Rendszerfejleszt%C3%A9s/trunk/project/src/.jacocoverage/report.html/",
+			"./JaCoCoverage analysis of project _OnlineKonyvtar_ (powered by JaCoCo from EclEmma)_files",
+			"\"jdbc:sqlite:\" + DB_FILE_ABSOLUTE_PATH",
+			", ",
+			"name",
+			"address",
+			"password_check",
+			"Lakcím",
+			"Jelszó megerősítés",
+			"password",
+			"Jelszó",
+			"E-mail",
+			"author",
+			"user_",
+			"user_form_name",
+			"`",
+			"154388486420986",
+			"615719839452574",
+			"46917444538297",
+			"A fekete váro",
+			"A bengáli tű",
+			"607579094290157",
+			"702617708601675",
+			"A bengáli tűz",
+			"getString",
+			"getCustomersFromResultSet",
+			"CUSTOMERS",
+			"customers",
+			" DEFAULT CHARSET=utf8;",
+			" default \"UTF-8\";",
+			"?",
+			"  ",
+			" ENGINE=InnoDB DEFAULT CHARSET=latin1",
+			"(11)",
+			"(11",
+			" ENGINE=InnoDB DEFAULT CHARSET=latin1;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "web/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3958,
+								3958
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "web/js/export.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1253,
+								1253
+							]
+						],
+						"settings":
+						{
+							"auto_name": "'use strict'",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "manifest.webapp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								358,
+								358
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "web/js/IDBHandler.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4119,
+								4119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "firefox_os_event_calendar.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

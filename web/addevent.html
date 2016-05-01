@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+
+    <title>Eseménynaptár</title>
+    <link href="https://gaia-components.github.io/gaia-icons/gaia-icons-embedded.css" rel="stylesheet" type="text/css">
+
+    <!-- Gaia components -->
+    <link rel="stylesheet" href="styles/headers.css">
+    <link rel="stylesheet" href="styles/drawer.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/input_areas.css">
+    <link rel="stylesheet" href="styles/switches.css">
+
+    <!-- Default css || override css -->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/event-form.css">
+
+  </head>
+
+  <body role="application">
+    <section role="region">
+      <header>
+        <a href="index.html"><span class="icon icon-close">close</span></a>
+        <h1>Új esemény</h1>
+      </header>
+
+      <div role="main">
+        <form id="new_event" enctype='application/json' class="event-form">
+          <div class="event-form__body">
+            <input id="title" type="text" placeholder="Title" name="title" />
+            <select id="type-select" name="type">
+              <option value="">Choose a type</option>
+              <option value="0">Meeting</option>
+              <option value="1">Phone call</option>
+              <option value="2">SMS</option>
+              <option value="3">E-mail</option>
+              <option value="4">Other</option>
+            </select>
+            
+            <div id="type-select-where-wrapper" class="event-form__where-wrapper" style="display: none;">
+              <input id="where" type="text" placeholder="Where" name="where" />
+              <button id="where_show_map" type="button" name="show_button" class="recommend">Show</button>
+              <div id="map"></div>
+            </div>
+
+            <div class="pack-switch-wrapper">
+              <span>All day event?</span>
+              <label class="pack-switch">
+                <input id="allday" name="allday" type="checkbox">
+                <span></span>
+              </label>
+            </div>
+
+            <input id="startedAt" type="date" placeholder="Started At" name="startedAt" />
+            <input id="startedAtTime" type="time" style="width: 49%;" placeholder="Time" name="startedAtTime" />
+            <input id="endedAtTime" type="time" style="width: 49%;" placeholder="Time" name="endedAtTime" />
+            
+            <div class="pack-switch-wrapper">
+              <span>Remind me</span>
+            </div>
+
+            <!-- <span class="button icon icon-dialog"> -->
+              <select class="js-notify" name="notify">
+                <option value="none">None</option>
+                <option value="0">At time of event</option>
+                <option value="-300000">5 minutes before</option>
+                <option value="-900000">15 minutes before</option>
+                <option value="-1800000">30 minutes before</option>
+                <option value="-3600000">1 hour before</option>
+                <option value="-7200000">2 hours before</option>
+                <option value="-86400000">1 day before</option>
+              </select>
+            <!-- </span> -->
+
+            <div class="pack-switch-wrapper">
+              <span>Note</span>
+            </div>
+
+            <textarea name="note" id="note" cols="30" rows="10" placeholder="Note"></textarea>
+            
+            <button type="submit" class="recommend">Save</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- plugins -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/moment.min.js"></script>
+    
+    <!-- modules -->
+    <script type="text/javascript" src="js/IDBHandler.js"></script>
+    <script type="text/javascript" src="js/all_day_event.js"></script>
+    <script type="text/javascript" src="js/save_event.js"></script>
+    <script type="text/javascript" src="js/maps.js"></script>
+    <script type="text/javascript" src="js/calendar.js"></script>
+    <script type="text/javascript" src="js/details.js"></script>
+    <script type="text/javascript" src="js/export.js"></script>
+    
+    <!-- app.js -->
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
