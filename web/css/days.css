@@ -1,0 +1,99 @@
+.days {
+	display: block;
+	position: relative;
+	height: calc(100% - 10rem);
+	overflow: hidden;
+}
+
+.days .days__wrapper {
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.days .days__content {
+	position: relative;
+	background-color: #fff;
+	z-index: 0;
+	width: 100%;
+	height: 120rem;
+}
+
+.days .days__hour-list {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	color: #353535;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.days .days__hour {
+	width: 100%;
+	border-bottom: 0.1rem solid #eee;
+	overflow: hidden;
+	height: 5rem;
+}
+
+.days .days__hour > span {
+    display: block;
+    text-align: left;
+    width: 7rem;
+    padding-top: 0.2rem;
+    line-height: 1.2;
+    -moz-padding-start: 1.5rem;
+}
+
+.days .days__events-wrapper {
+    height: 120rem;
+    width: calc(100% - 7rem);
+    position: absolute;
+    overflow: hidden;
+    right: 0px;
+    top: 0px;
+    border-left: solid 0.1rem #eee;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-user-select: none;
+}
+
+.days .days__events {
+	position: absolute;
+	display: block;
+	border-left: solid 0.4rem  rgb(249, 124, 23);
+	background-color: rgba(249, 124, 23, 0.2);
+	width: 100%;
+	overflow: hidden;
+	padding: 0.5rem;
+	text-decoration: none;
+	min-height: 2.1rem;
+}
+
+.days .days__events h2 {
+	margin: 0;
+	min-height: 1.5rem;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.2;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #353535;
+	line-height: 1;
+	white-space: nowrap;
+}
+
+.days .days__current-time {
+	display: block;
+	position: absolute;
+	border: 0.1rem solid rgba(0, 0, 255, 0.69);
+	width: 100%;
+}
+
+/*height: 49.9px;
+top: 250px;
+width: 25%;
+left: 75%;*/

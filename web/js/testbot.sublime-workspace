@@ -44,11 +44,28 @@
 	"buffers":
 	[
 		{
-			"file": "web/index.html",
+			"file": "/D/testbot/package.json",
 			"settings":
 			{
-				"buffer_size": 4004,
+				"buffer_size": 371,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/testbot/index.js",
+			"settings":
+			{
+				"buffer_size": 1678,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/testbot/.gitignore",
+			"settings":
+			{
+				"buffer_size": 13,
+				"line_ending": "Windows",
+				"name": "node_modules/"
 			}
 		}
 	],
@@ -60,7 +77,7 @@
 	"command_palette":
 	{
 		"height": 157.0,
-		"last_filter": "syn scs",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -84,7 +101,7 @@
 				"Set Syntax: ActionScript"
 			]
 		],
-		"width": 549.0
+		"width": 571.0
 	},
 	"console":
 	{
@@ -105,31 +122,27 @@
 	},
 	"expanded_folders":
 	[
-		"/D/firefox_os_event_calendar-master",
-		"/D/firefox_os_event_calendar-master/web",
-		"/D/firefox_os_event_calendar-master/web/js"
+		"/D/testbot"
 	],
 	"file_history":
 	[
-		"/D/firefox_os_event_calendar-master/web/event_details.html",
-		"/D/firefox_os_event_calendar-master/web/addevent.html",
-		"/D/firefox_os_event_calendar-master/web/index.html",
-		"/D/firefox_os_event_calendar-master/web/js/app.js",
-		"/D/firefox_os_event_calendar-master/web/js/exporter.js",
-		"/D/firefox_os_event_calendar-master/web/js/details.js",
-		"/D/firefox_os_event_calendar-master/.gitignore",
-		"/D/firefox_os_event_calendar-master/web/js/maps.js",
-		"/D/firefox_os_event_calendar-master/web/js/export.js",
+		"/D/testbot/index.js",
 		"/D/firefox_os_event_calendar-master/web/js/IDBHandler.js",
 		"/D/firefox_os_event_calendar-master/manifest.webapp",
 		"/D/testbot/package.json",
+		"/D/firefox_os_event_calendar-master/web/index.html",
+		"/D/firefox_os_event_calendar-master/web/js/export.js",
 		"/E/Dropbox/Documentumok/Keys/id_rsa",
 		"/D/firefox_os_event_calendar-master/README.md",
 		"/D/firefox_os_event_calendar-master/web/css/details.css",
+		"/D/firefox_os_event_calendar-master/web/event_details.html",
+		"/D/firefox_os_event_calendar-master/web/addevent.html",
 		"/D/firefox_os_event_calendar-master/web/js/calendar.js",
 		"/D/firefox_os_event_calendar-master/web/css/days.css",
 		"/D/firefox_os_event_calendar-master/web/js/all_day_event.js",
+		"/D/firefox_os_event_calendar-master/web/js/app.js",
 		"/D/firefox_os_event_calendar-master/web/js/save_event.js",
+		"/D/firefox_os_event_calendar-master/web/js/maps.js",
 		"/D/firefox_os_event_calendar-master/web/css/event-form.css",
 		"/D/firefox_os_event_calendar-master/web/css/app.css",
 		"/D/firefox_os_event_calendar-master/web/css/subheader.css",
@@ -197,7 +210,7 @@
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -276,37 +289,92 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "web/index.html",
+					"file": "/D/testbot/package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4004,
+						"buffer_size": 371,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3885,
-								3885
+								370,
+								370
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1380.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/testbot/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								476,
+								477
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/testbot/.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"auto_name": "node_modules/",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -348,7 +416,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "firefox_os_event_calendar.sublime-project",
+	"project": "testbot.sublime-project",
 	"replace":
 	{
 		"height": 52.0

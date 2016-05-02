@@ -1,0 +1,42 @@
+.event-form {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.event-form .event-form__body {
+  padding: 1.5rem 1rem;
+  overflow: hidden;
+}
+
+.event-form .pack-switch {
+  width: 6rem;
+  float: right;
+}
+
+.event-form .pack-switch-wrapper:after,
+.event-form .pack-switch-wrapper:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.event-form .pack-switch-wrapper > span {
+  float: left;
+  display: block;
+  height: 100%;
+  vertical-align: middle;
+  line-height: 2.1em;
+}
+
+.event-form .event-form__where-wrapper > input, 
+.event-form .event-form__where-wrapper > button {
+  display: inline;
+  vertical-align: middle;
+}
+
+.event-form .event-form__where-wrapper > input {
+  width: 68%;
+}
+.event-form .event-form__where-wrapper > button {
+  width: 28%;
+}

@@ -1,0 +1,12 @@
+.details {}
+
+.details .details__wrapper {
+	padding: 1.5rem 1rem;
+}
+
+.details .details__title {
+	margin-top: 0;
+}
+
+.details .details__body {
+}
