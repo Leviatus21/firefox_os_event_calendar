@@ -1,7 +1,8 @@
 var save_event = function() {
-	var TYPE_PHONE_CALL = 1;
-	var TYPE_SMS = 2;
-	var TYPE_EMAIL = 3;
+	var TYPE_PHONE_CALL = 1,
+		TYPE_SMS = 2,
+		TYPE_EMAIL = 3
+	;
 
 	return {
 		init: function () {
@@ -40,14 +41,11 @@ var save_event = function() {
 			});
 
 			request.onsuccess = function () {
-				alarmId = this.result;
 				console.log('Created new Alarm: ' + this.result);
 			}
 
 			navigator.mozSetMessageHandler('alarm', function (alarm) {
 				var notification = new Notification(alarm.data.title, {body: alarm.data.body});
-				navigator.mozAlarms.remove(alarm.id);
-				
 				notification.onclick = function () {
 					if (alarm.data.type == TYPE_PHONE_CALL) {
 						var call = new MozActivity({
@@ -61,7 +59,7 @@ var save_event = function() {
 							name: "new",
 							data: {
 								type: "websms/sms",
-								number: "+36"
+								number: ""
 							}
 						});
 					} else if (alarm.data.type == TYPE_EMAIL) {
@@ -75,13 +73,17 @@ var save_event = function() {
 
 					notification.close();
 				};
+
+				navigator.mozAlarms.remove(alarm.id);
 			});
 		},
 
 		saveEvent: function (form_data) {
 			IDBHandler.insert('Events', form_data, function () {
-				document.location.href = 'index.html';
 				console.log('A feltöltés sikeres!');
+				//document.location.href = 'index.html';
+				pager.pageing('index')
+				calendar.loadEvents(moment());
 			});
 		}
 	};

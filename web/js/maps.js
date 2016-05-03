@@ -38,7 +38,7 @@ var maps = function() {
 								zoom: 11
 							});
 
-							var beachMarker = new google.maps.Marker({
+							var marker = new google.maps.Marker({
 								position: {lat: loc.lat, lng: loc.lng},
 								map: googlemap
 							});

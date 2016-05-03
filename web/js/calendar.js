@@ -1,9 +1,10 @@
 'use strict'
 
 var calendar = function() {
-	var now = moment();
-	var today = moment();
-	var obj = document.querySelector('.js-calendar');
+	var now = moment(),
+		today = moment(),
+		obj = document.querySelector('.js-calendar')
+	;
 
 	return {
 		init: function() {
@@ -79,7 +80,14 @@ var calendar = function() {
 				var diffMinute = endedAt.diff(startedAt, 'minute') - diffHour * 60;
 
 				link.style.top = startedAt.hours() * 50 + startedAt.minutes() / 60 * 50 + 'px';
-				link.style.height = diffHour * 50 + diffMinute / 60 * 50 + 'px';
+				
+				var nHeight =  diffHour * 50 + diffMinute / 60 * 50;
+				if (nHeight < 21) {
+					nHeight = 21;
+				}
+
+				link.style.height = nHeight + 'px';
+
 			} else {
 				link.style.top = 0;
 				link.style.height = 24 * 50 + 'px';

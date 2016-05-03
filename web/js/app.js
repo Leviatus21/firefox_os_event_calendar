@@ -8,3 +8,4 @@ calendar.init();
 details.init();
 maps.init();
 exporter.init();
+pager.init();

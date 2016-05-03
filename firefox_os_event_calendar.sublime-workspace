@@ -44,10 +44,10 @@
 	"buffers":
 	[
 		{
-			"file": "web/index.html",
+			"file": "web/addevent.html",
 			"settings":
 			{
-				"buffer_size": 4004,
+				"buffer_size": 4368,
 				"line_ending": "Windows"
 			}
 		}
@@ -105,17 +105,15 @@
 	},
 	"expanded_folders":
 	[
-		"/D/firefox_os_event_calendar-master",
-		"/D/firefox_os_event_calendar-master/web",
-		"/D/firefox_os_event_calendar-master/web/js"
+		"/D/firefox_os_event_calendar-master"
 	],
 	"file_history":
 	[
+		"/D/firefox_os_event_calendar-master/web/js/exporter.js",
+		"/D/firefox_os_event_calendar-master/web/index.html",
 		"/D/firefox_os_event_calendar-master/web/event_details.html",
 		"/D/firefox_os_event_calendar-master/web/addevent.html",
-		"/D/firefox_os_event_calendar-master/web/index.html",
 		"/D/firefox_os_event_calendar-master/web/js/app.js",
-		"/D/firefox_os_event_calendar-master/web/js/exporter.js",
 		"/D/firefox_os_event_calendar-master/web/js/details.js",
 		"/D/firefox_os_event_calendar-master/.gitignore",
 		"/D/firefox_os_event_calendar-master/web/js/maps.js",
@@ -281,19 +279,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "web/index.html",
-					"semi_transient": false,
+					"file": "web/addevent.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 4004,
+						"buffer_size": 4368,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3885,
-								3885
+								0,
+								0
 							]
 						],
 						"settings":
@@ -303,7 +301,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1380.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
