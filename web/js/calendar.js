@@ -40,7 +40,7 @@ var calendar = function() {
 		},
 
 		writeDate: function () {
-			obj.querySelector('.js-calendar__now').innerHTML = now.format('YYYY MMMM DD');
+			obj.querySelector('.js-calendar__now').innerHTML = now.format('DD MMMM YYYY');
 		},
 
 		loadEvents: function (date) {
